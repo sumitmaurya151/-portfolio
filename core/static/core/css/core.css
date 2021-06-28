@@ -1,0 +1,27 @@
+.my-font {
+    font-family: 'Dancing Script', cursive;
+}
+html,body{
+    height: 100%;
+}
+.container-fluid{
+    min-height: 100%;
+}
+.i-color{
+    color: chartreuse;
+}
+.ss-color{
+    color:whitesmoke;
+}
+a.nav-link{
+    color: whitesmoke;
+}
+a.nav-link:hover{
+    color: black;
+    background-color:#5bc0de;
+}
+a.nav-link.active{
+    color: black;
+    background-color: #5bc0de;
+    font-weight: bold;
+}

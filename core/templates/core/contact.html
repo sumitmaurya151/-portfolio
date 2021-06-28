@@ -1,0 +1,56 @@
+{% extends 'core/base.html' %} {% block content %}
+<div class="container mt-5">
+  <h1 class="text-info mb-5 border-bottom">Contact US</h1>
+  <div class="row text-white mb-5">
+    <p class="mx-auto mb-5">
+      Do you have any question ? Please fill the contact form. I will back to
+      you within a day to help you.
+    </p>
+    <div class="col-sm-9">
+      <form action="">
+        <div class="row mb-3">
+          <div class="col-sm-6">
+            <label for="inputName" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="inputName" />
+          </div>
+          <div class="col-sm-6">
+            <label for="inputEmail" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="inputEmail" />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputSubject" class="form-label">Your Subject</label>
+          <input type="text" class="form-control" id="inputSubject" />
+        </div>
+        <div class="row mb-3">
+          <label for="inputTextarea" class="form-label">Your message</label>
+          <textarea class="form-control" id="inputTextarea" required></textarea>
+        </div>
+        <button class="btn btn-primary mb-3" type="submit">Send</button>
+      </form>
+    </div>
+    <div class="col-sm-3 text-center">
+      <ul class="list-unstyled">
+        <li>
+          <i class="fas fa-map-marker-alt fa-2x i-color"></i>
+          <p>Lucknow, UP, India</p>
+        </li>
+        <li>
+          <i class="fas fa-phone mt-4 fa-2x i-color"></i>
+          <p>+91 9792320528</p>
+        </li>
+        <li>
+          <i class="fas fa-envelope mt-4 fa-2x i-color"></i>
+          <p>sumitmaurya151@gmail.com</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="text-center">
+  <a href="https://www.linkedin.com/in/sumit-maurya-514a781a4/" target="_blank" class="ms-5"><i class="fab fa-linkedin i-color fa-2x"></i></a>
+  <a href="https://www.instagram.com/ersumitmaurya/" target="_blank" class="ms-5"><i class="fab fa-instagram i-color mr-3 fa-2x"></i></a>
+  <a href="https://github.com/sumitmaurya151" target="_blank" class="ms-5"><i class="fab fa-github i-color mr-3 fa-2x"></i></a>
+</div>
+
+{% endblock content %}

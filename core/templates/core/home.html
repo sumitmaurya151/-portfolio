@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %} 
+{% load static %}
+{% block content %}
+<div class="text-white px-4">
+    <div class="text-center mt-5">
+        <img src="{% static 'core/images/mypic.jpg'%}" alt="ProfilePic" class="img-thumbnail mt-5" width="250" height="250">
+    </div>
+    <div class=" mt-5">
+        <h1 class="font-weight-bold my-font">Hello,</h1>
+    </div>
+    <div style="text-align: justify;">
+        <p style="text-indent: 100px;">
+            I am <b class="text-info">sumit kumar maurya</b> having 2 year of full-stack web development experience. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quasi quos quia voluptatem quam, quis dolorum aperiam nemo adipisci sit repellat facilis deserunt officiis fuga, tenetur non nesciunt? Officia, dolores!
+            Consequuntur ab dolor, repudiandae laudantium earum aliquid, iste aspernatur recusandae sit, autem quos enim consectetur quas a animi perferendis eaque repellendus doloremque. Quidem fuga debitis pariatur animi similique impedit nemo?
+            Corrupti quas fuga eveniet enim consequuntur, minima numquam placeat nisi ab dolor delectus modi corporis, assumenda possimus facere velit perspiciatis pariatur similique veniam, quibusdam amet officia et hic? Porro, pariatur!
+        </p>
+        <div class="text-center">
+            <a href="{% url 'contact' %}" class="btn btn-outline-primary m-5">Hire me</a>
+            <a href="{% url 'contact' %}" class="btn btn-outline-info m-5">Contact me</a>
+        </div>
+    </div>
+</div>
+{% endblock content %}
